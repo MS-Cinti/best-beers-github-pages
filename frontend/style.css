@@ -1,0 +1,170 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+outline: none;
+box-sizing: border-box;
+background: transparent;
+font-family: inherit;
+}
+a{
+text-decoration: none;
+}
+a img {
+border: none;
+}
+
+button,
+a {
+cursor: pointer;
+color: inherit;
+}
+
+textarea {
+resize: none;
+}
+
+button,
+textarea,
+select {
+appearance: none !important;
+border-radius: 0;
+}
+
+/* end of css reset */
+
+body{
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    background-color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#homePage{
+    position: relative;
+    width: 100%;
+    max-height: 100vh;
+}
+
+#homePage #homeVideo{
+    width: 100%;
+    max-height: 100vh;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    opacity: 1;
+}
+
+ul{
+    position: fixed;
+    background-color: transparent;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    transform: translate(80%);
+    list-style-type: none;
+    overflow: hidden;
+    border-radius: 0 0 2vw 2vw;
+}
+  
+li{
+    float: left;
+}
+  
+li a{
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(245, 245, 220, 0.851);
+    padding: 0.6vw 1.8vw;
+    font-size: 1vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgba(17, 17, 17, 0.419);
+}
+
+#homePage h1{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4vw;
+    color: rgba(245, 245, 220, 0.922);
+}
+
+#homePage p{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+    color: rgba(245, 245, 220, 0.851);
+    line-height: 4vw;
+}
+
+#beersPageSection{
+    max-width: 100%;
+    height: 100vh;
+    background-color: black;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+#beersPage{
+    display: flex;
+    margin-top: 4vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 2.5vw;
+    row-gap: 4vw;
+}
+
+.flip-card{
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+    margin-top: 4vw;
+}
+  
+.flip-card-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+  
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front, 
+.flip-card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+  
+.flip-card-front{
+    background-color: black;
+}
+  
+.flip-card-back{
+    background-color: black;
+    transform: rotateY(180deg);
+    font-family: 'Raleway', sans-serif;
+    color: rgba(245, 245, 220, 0.922);
+    font-size: 1vw;
+    line-height: 1.5vw;
+}

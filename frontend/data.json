@@ -1,0 +1,77 @@
+{
+"id": "beers",
+"logo": "Best Beers",
+"button": "details",
+"cards": [
+        {
+            "title": "Mango Bay",
+            "sub": "Mad Scientist Beer",
+            "text": "Pale Ale - American",
+            "labelImg": "MangoBay_cimke.png",
+            "img": "MadMangoBay"
+        },
+        {
+            "title": "Távoli Galaxis",
+            "sub": "Rothbeer Brewery",
+            "text": "IPA - American",
+            "labelImg": "TavoliGalaxis_cimke.png",
+            "img": "rothtavoligalaxis"
+        },
+        {
+            "title": "Flying Rabbit AIPA",
+            "sub": "MONYO Brewing Co.",
+            "text": "IPA - American",
+            "labelImg": "FlyingRabbitAIPA_cimke.jpg",
+            "img": "monyoflyingrabbit"
+        },
+        {
+            "title": "Liquid Cocaine",
+            "sub": "Mad Scientist Beer",
+            "text": "IPA - Imperial",
+            "labelImg": "LiquidCocaine_cimke.jpeg",
+            "img": "MadLiquidCocain"
+        },
+        {
+            "title": "Organic Chocolate Stout",
+            "sub": "Samuel Smith Old Brewery",
+            "text": "Stout - English",
+            "labelImg": "OrganicChocolateStout_cimke.jpg",
+            "img": "organicChocolateStout"
+        },
+        {
+            "title": "Bracia",
+            "sub": "Thornbridge Brewery",
+            "text": "Strong Ale - English",
+            "labelImg": "bracia_cimke.png",
+            "img": "Bracia"
+        },
+        {
+            "title": "Oatmeal Stout",
+            "sub": "Samuel Smith Old Brewery",
+            "text": "Stout - Oatmeal",
+            "labelImg": "OatmealStout_cimke.jpeg",
+            "img": "OatmealStout"
+        },
+        {
+            "title": "Black Tokyo Horizon",
+            "sub": "BrewDog",
+            "text": "Stout - American Imperial",
+            "labelImg": "BlackTokyoHorizon_cimke.jpeg",
+            "img": "BlackTokyoHorizon"
+        },
+        {
+            "title": "Vintage Ale",
+            "sub": "Fuller's",
+            "text": "Old Ale",
+            "labelImg": "vintage_cimke.jpg",
+            "img": "Fullers-Vintage-Ale"
+        },
+        {
+            "title": "All the Leaves are Brown",
+            "sub": "Tempest Brewing Company",
+            "text": "Brown Ale - American",
+            "labelImg": "AlltheLeavesareBrown_cimke.jpg",
+            "img": "AlltheLeavesareBrown"
+        }
+    ]
+}
