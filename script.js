@@ -1,7 +1,7 @@
 const htmlBody = `
     <section id="homePage">
         <video autoplay muted loop id="homeVideo">
-            <source src="./imagesAndVideos/homePage.mp4" type="video/mp4">			
+            <source src="homePage.mp4" type="video/mp4">			
         </video>
         <nav>
             <ul>
@@ -27,10 +27,10 @@ fetch ("data.json")
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
-                <img src="./imagesAndVideos/${beer.labelImg}" alt="" style="width:100%;height:100%;object-fit:cover">
+                <img src="${beer.labelImg}" alt="" style="width:100%;height:100%;object-fit:cover">
             </div>
             <div class="flip-card-back">
-                <img src="./imagesAndVideos/${beer.img}.jpg" alt="" style="width:100%;height:100%;object-fit:contain">
+                <img src="${beer.img}.jpg" alt="" style="width:100%;height:100%;object-fit:contain">
                 <h1>${beer.title}</h1> 
                 <p>${beer.sub}</p> 
                 <p>${beer.text}</p>
